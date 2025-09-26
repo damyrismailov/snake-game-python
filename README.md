@@ -14,3 +14,8 @@
 ## How to run
 ```bash
 python main.py
+
+What I learned
+State & collision logic
+Simple OOP (Snake/Food/Scoreboard classes)
+Clean functions and debugging step by step
