@@ -17,11 +17,11 @@ class New_Snake:
             for position in STARTING_POSITIONS:
              self.add_segment(position)
         def add_segment(self, position):
-                diddy = Turtle("square")
-                diddy.color("white")
-                diddy.penup()
-                diddy.goto(position)
-                self.segments.append(diddy)
+                jimmy = Turtle("square")
+                jimmy.color("white")
+                jimmy.penup()
+                jimmy.goto(position)
+                self.segments.append(jimmy)
         def reset(self):
             for segment in self.segments:
                 segment.goto(1000,1000)
