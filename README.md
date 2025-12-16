@@ -1,21 +1,22 @@
-# Snake Game (Python, turtle)
+# Snake Game
 
-**Goal:** Classic Snake with scoring and growth.  
-**Stack:** Python 3.x, `turtle` (standard library)
+Classic snake game built with Python and the turtle module.
 
-## Features
-- Grid movement and food spawn
-- Self/wall collision + game over
-- Scoreboard with high score (saved to file)
+## Main features
 
-## Controls
-- ⬆️⬇️⬅️➡️ to move
+- Snake moves with the arrow keys.
+- Food appears at random positions.
+- Snake grows when it eats food.
+- Hitting the wall or the snake’s own body ends the game.
+- Scoreboard with current score and high score.
+
+## What I learned
+
+- Animating with the turtle module.
+- Building the game from classes (snake, food, scoreboard).
+- Keyboard event handling.
+- Collision detection and a simple game loop.
 
 ## How to run
-```bash
-python main.py
 
-What I learned
-State & collision logic
-Simple OOP (Snake/Food/Scoreboard classes)
-Clean functions and debugging step by step
+Open `main.py` in Python 3 and run the file.
